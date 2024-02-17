@@ -1,7 +1,12 @@
+'use client'
 import React from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
+    const logoutHander = () => {
+        localStorage.removeItem('token');
+        window.location.href = '/';
+    }
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -12,7 +17,7 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link href="/home">Home</Link></li>
                         <li>
-                        <Link href="/">Course</Link>
+                            <Link href="/course">Course</Link>
                         </li>
                         <li><Link href="/aboutus">About Us</Link></li>
                         <li><a>contact</a></li>
@@ -24,7 +29,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1">
                     <li><Link href="/home">Home</Link></li>
                     <li>
-                    <Link href="/">Course</Link>    
+                        <Link href="/course">Course</Link>
                     </li>
                     <li><Link href="/aboutus">About us</Link></li>
                     <li><Link href="/contact">contact us</Link></li>
@@ -32,6 +37,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <Link href="/chatbot" className="btn">ChatGPT</Link>
+                <button onClick={logoutHander} className="btn">Logout</button>
             </div>
         </div>
     );

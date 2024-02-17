@@ -14,18 +14,13 @@ const page = () => {
                                 class="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
                                 Get in Touch
                             </h2>
-                            <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">In hac habitasse platea
-                                dictumst
-                            </p>
                         </div>
                     </div>
                     <div class="flex items-stretch justify-center">
                         <div class="grid md:grid-cols-2">
                             <div class="h-full pr-6">
                                 <p class="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-                                    Class aptent taciti sociosqu ad
-                                    litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque
-                                    sagittis ante, ac tincidunt sem venenatis ut.
+                                    Got questions, feedback, or just want to say hello? We'd love to hear from you! Drop us a line using the form below or reach out to us directly at classsync@gmail.com. Our team is here to assist you and ensure you have the best experience possible. Let's connect and make learning even more enjoyable together!
                                 </p>
                                 <ul class="mb-6 md:mb-0">
                                     <li class="flex">
@@ -42,8 +37,8 @@ const page = () => {
                                         <div class="ml-4 mb-4">
                                             <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
                                             </h3>
-                                            <p class="text-gray-600 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
-                                            <p class="text-gray-600 dark:text-slate-400">New York, EEUU</p>
+                                            <p class="text-gray-600 dark:text-slate-400">Shahjalal University of Science & Technology</p>
+                                            <p class="text-gray-600 dark:text-slate-400">Sylhet, Bangladesh</p>
                                         </div>
                                     </li>
                                     <li class="flex">
@@ -62,7 +57,7 @@ const page = () => {
                                             <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
                                             </h3>
                                             <p class="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
-                                            <p class="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                                            <p class="text-gray-600 dark:text-slate-400">Mail: ClassSync@gmail.com</p>
                                         </div>
                                     </li>
                                     <li class="flex">
@@ -77,8 +72,8 @@ const page = () => {
                                         <div class="ml-4 mb-4">
                                             <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
                                                 hours</h3>
-                                            <p class="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
-                                            <p class="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                                            <p class="text-gray-600 dark:text-slate-400">ALWAYS ONLINE</p>
+                                        
                                         </div>
                                     </li>
                                 </ul>
@@ -89,10 +84,10 @@ const page = () => {
                                     <div class="mb-6">
                                         <div class="mx-0 mb-1 sm:mb-4">
                                             <div class="mx-0 mb-1 sm:mb-4">
-                                                <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
+                                                <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name" />
                                             </div>
                                             <div class="mx-0 mb-1 sm:mb-4">
-                                                <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email"/>
+                                                <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" />
                                             </div>
                                         </div>
                                         <div class="mx-0 mb-1 sm:mb-4">

@@ -12,7 +12,9 @@ const ChatPage = () => {
     const [chatHistory, setChatHistory] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
 
-    const handleUserInput = async () => {
+    const handleUserInput = async (e) => {
+        e.preventDefault(); // Prevent default form submission behavior
+
         // Start the loading state
         setIsLoading(true);
 
@@ -40,7 +42,7 @@ const ChatPage = () => {
     };
 
     return (
-        <form>
+        <form onSubmit={handleUserInput}> {/* Attach onSubmit event handler */}
             <div className="flex flex-col h-[600px]">
                 <div className="overflow-auto flex-1">
                     {chatHistory.map((message, index) => (
@@ -57,7 +59,7 @@ const ChatPage = () => {
                         placeholder="Type your message..."
                         className="flex-1 mr-2 p-2 border rounded-lg"
                     />
-                    <button onClick={handleUserInput} disabled={isLoading} type='submit' className="px-4 py-2 bg-blue-500 text-white rounded-lg">
+                    <button type='submit' disabled={isLoading} className="px-4 py-2 bg-blue-500 text-white rounded-lg">
                         {isLoading ? 'Sending...' : 'Send'}
                     </button>
                 </div>
@@ -67,3 +69,4 @@ const ChatPage = () => {
 };
 
 export default ChatPage;
+
