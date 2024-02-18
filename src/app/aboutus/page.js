@@ -92,7 +92,7 @@ const aboutpage = () => {
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             {/* <img src="https://i.postimg.cc/9MW8G96J/pexels-the-coach-space-2977565.jpg" alt=""
                                 className="relative z-40 object-cover w-full h-full rounded"></img> */}
-                            <Image src={about} alt="about" className="relative z-40 object-cover w-full h-full " />
+                            <Image src={about} alt="about" className=" " />
                         </div>
                     </div>
                 </div>
